@@ -1,0 +1,28 @@
+{
+  "name": "medical-emergency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanVilla1585/MedicalEmergency.git"
+  },
+  "author": "Ivan Dario Villa Ramirez <trezeguet55@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanVilla1585/MedicalEmergency/issues"
+  },
+  "homepage": "https://github.com/IvanVilla1585/MedicalEmergency#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
