@@ -10,8 +10,7 @@ class AmbulanceRouter extends Router {
   get routes() {
     return {
       '/api/ambulances': [
-        new Route("post", "createAmbulance"),
-        new Route()
+        new Route("post", "createAmbulance"),        
       ]
     };
   }
